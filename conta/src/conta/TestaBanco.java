@@ -11,6 +11,10 @@ public class TestaBanco {
         sillas.setProfissao("Analista de teste");
 
         Conta contaDoPaulo = new Conta(5444, 8444); 
+        Conta contaDoPaulo1 = new Conta(5444, 8444); 
+        Conta contaDoPaulo2 = new Conta(5444, 8444); 
+        Conta contaDoPaulo3 = new Conta(5444, 8444); 
+        Conta contaDoPaulo4 = new Conta(5444, 8444); 
         contaDoPaulo.depositar(100);
         contaDoPaulo.getagencia();
         contaDoPaulo.getnumero();
@@ -18,6 +22,7 @@ public class TestaBanco {
         System.out.println(contaDoPaulo.getTitular().getNome());
         contaDoPaulo.setTitular(sillas);
         System.out.println(contaDoPaulo.getTitular().getNome());
+        System.out.println(contaDoPaulo.getCtt());
         
 
     }

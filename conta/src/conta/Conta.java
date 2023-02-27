@@ -96,6 +96,10 @@ public class Conta {
 	public void setTitular(Cliente titular) {
 		this.titular = titular;
 	}
+	public static int getCtt() {
+		return Conta.ctt;
+		
+	}
 
 }
 
